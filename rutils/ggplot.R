@@ -1,4 +1,4 @@
-source('./dfutils.R')
+source('https://raw.githubusercontent.com/RealAshrafAhmed/games/main/rutils/fun.R')
 
 heatmap <- function(data) {
   g <- ggplot(data=data, aes(x=x, y=t)) + 
